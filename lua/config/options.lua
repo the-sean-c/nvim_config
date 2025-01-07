@@ -9,3 +9,5 @@ vim.opt.completeopt = "menu,menuone,noselect,noinsert"
 vim.opt.winbar = "%=%m %f"
 
 vim.g.autoformat = true
+
+vim.opt.conceallevel = 0

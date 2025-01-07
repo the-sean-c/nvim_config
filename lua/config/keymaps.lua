@@ -277,11 +277,12 @@ end
 wk.add({
   {
     { "<leader><cr>", send_cell, desc = "run code cell" },
-    { "<leader>ci", new_terminal_ipython, desc = "new [i]python terminal" },
-    { "<leader>cj", new_terminal_julia, desc = "new [j]ulia terminal" },
-    { "<leader>cn", new_terminal_shell, desc = "[n]ew terminal with shell" },
-    { "<leader>cp", new_terminal_python, desc = "new [p]ython terminal" },
-    { "<leader>cr", new_terminal_r, desc = "new [R] terminal" },
+    { "<leader>ct", group = "[t]erminal" },
+    { "<leader>cti", new_terminal_ipython, desc = "new [i]python terminal" },
+    { "<leader>ctj", new_terminal_julia, desc = "new [j]ulia terminal" },
+    { "<leader>ctn", new_terminal_shell, desc = "[n]ew terminal with shell" },
+    { "<leader>ctp", new_terminal_python, desc = "new [p]ython terminal" },
+    { "<leader>ctr", new_terminal_r, desc = "new [R] terminal" },
 
     { "<leader>o", group = "[o]tter & c[o]de" },
     { "<leader>oa", require("otter").activate, desc = "otter [a]ctivate" },
